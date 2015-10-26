@@ -1,5 +1,20 @@
 # Silk 4.0.0
 
+## Daobs Silk configuration
+
+Dashboard in Daobs could optionnaly be created with Silk.
+
+Build Silk with maven to configure it
+
+```
+mvn clean install
+```
+
+Then use the following instructions to build and run Silk.
+
+
+# Silk
+
 Silk is a fork of Kibana, an open source ([Apache Licensed](https://github.com/LucidWorks/silk/blob/dev/LICENSE.md)), browser based analytics and search dashboard for Solr. Silk is a snap to setup and start using. Silk strives to be easy to get started with, while also being flexible and powerful.
 
 The goal is to create a rich and flexible UI, enabling users to rapidly develop end-to-end applications that leverage the power of Apache Solr. Data can be ingested into Solr through a variety of ways, including Flume, Logstash and other connectors.
